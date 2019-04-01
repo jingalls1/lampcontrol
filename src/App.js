@@ -32,6 +32,8 @@ class App extends React.Component {
         <br />
         <h2> Jacob's home lamp </h2>
         <br />
+        <div style={{textAlign: "center", fontSize: "7px"}}> Fuck you lil bitch</div>
+        <br />
         <Button
           color="primary"
           variant="contained"
