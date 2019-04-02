@@ -17,16 +17,19 @@ class App extends React.Component {
   onLampHandler = () => {
     //hey
     console.log("on lamp clicked");
-    axios.get(onReq).then(response => console.log(response));
+    //axios.get(onReq).then(response => console.log(response));
+    window.open('http://www.pornhub.com', '_blank')
   };
 
   offLampHandler = () => {
     //hey
     console.log("off lamp clicked");
-    axios.get(offReq).then(response => console.log(response));
+    //axios.get(offReq).then(response => console.log(response));
+    window.open('http://www.pornhub.com', '_blank')
   };
 
   render() {
+    alert('stop tryna fuck w my lamp lil bitch')
     return (
       <div style={{ textAlign: "center" }}>
         <br />
