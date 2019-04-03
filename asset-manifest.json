@@ -1,13 +1,13 @@
 {
   "main.css": "/lampcontrol/static/css/main.3460ab99.chunk.css",
-  "main.js": "/lampcontrol/static/js/main.ae5b4d19.chunk.js",
-  "main.js.map": "/lampcontrol/static/js/main.ae5b4d19.chunk.js.map",
+  "main.js": "/lampcontrol/static/js/main.c140be85.chunk.js",
+  "main.js.map": "/lampcontrol/static/js/main.c140be85.chunk.js.map",
   "runtime~main.js": "/lampcontrol/static/js/runtime~main.ab7c5514.js",
   "runtime~main.js.map": "/lampcontrol/static/js/runtime~main.ab7c5514.js.map",
   "static/js/2.26b853a6.chunk.js": "/lampcontrol/static/js/2.26b853a6.chunk.js",
   "static/js/2.26b853a6.chunk.js.map": "/lampcontrol/static/js/2.26b853a6.chunk.js.map",
   "index.html": "/lampcontrol/index.html",
-  "precache-manifest.18365015c4f348d990b8d1526552662f.js": "/lampcontrol/precache-manifest.18365015c4f348d990b8d1526552662f.js",
+  "precache-manifest.2a42fce9565c9a0ae73a0ffc34c2ac06.js": "/lampcontrol/precache-manifest.2a42fce9565c9a0ae73a0ffc34c2ac06.js",
   "service-worker.js": "/lampcontrol/service-worker.js",
   "static/css/main.3460ab99.chunk.css.map": "/lampcontrol/static/css/main.3460ab99.chunk.css.map"
 }
