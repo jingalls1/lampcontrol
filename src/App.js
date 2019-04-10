@@ -1,7 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
 import Button from "@material-ui/core/Button";
-import { ContentBlock } from "material-ui/svg-icons";
+//import { ContentBlock } from "material-ui/svg-icons";
 import axios from "axios";
 
 const apiKey = "mMqNcOe88sAYCMRMSeAyEl8eR2Mmc2EeZji6SqiLWpD";
@@ -31,6 +31,7 @@ class App extends React.Component {
   };
 
   render() {
+    console.log('just checking if it updated 4/10')
     return (
       <div style={{ textAlign: "center" }}>
         <br />
@@ -38,6 +39,7 @@ class App extends React.Component {
         <br />
         <div style={{textAlign: "center", fontSize: "7px"}}> Fuck you lil bitch</div>
         <br />
+        <div style={{width: window.innerWidth}}>
         <Button
           color="primary"
           variant="contained"
@@ -58,6 +60,7 @@ class App extends React.Component {
           {" "}
           Turn off lamp{" "}
         </Button>
+        </div>
       </div>
     );
   }
