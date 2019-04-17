@@ -3,6 +3,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 //import { ContentBlock } from "material-ui/svg-icons";
 import axios from "axios";
+import "./styles.css";
 
 const apiKey = "mMqNcOe88sAYCMRMSeAyEl8eR2Mmc2EeZji6SqiLWpD";
 const onReq = `https://maker.ifttt.com/trigger/Lamp on/with/key/${apiKey}`;
@@ -35,13 +36,20 @@ class App extends React.Component {
     return (
       <div style={{ textAlign: "center" }}>
         <br />
-        <h2> Jacob's home lamp </h2>
+        <br/>
+        <h2 className="title"> Jacob's home lamp </h2>
         <br />
-        <div style={{textAlign: "center", fontSize: "7px"}}> Fuck you lil bitch</div>
         <br />
         <div style={{width: window.innerWidth}}>
         <Button
-          color="primary"
+        style={{
+          borderRadius: 40,
+            padding: "18px 36px",
+            fontSize: "18px",
+            color: "white",
+            textShadow: "2px 2px 7px black",
+            backgroundColor: "#51D851"
+        }}
           variant="contained"
           size="large"
           onClick={this.onLampHandler}
@@ -52,8 +60,15 @@ class App extends React.Component {
         <br />
         <br />
         <Button
-          color="secondary"
-          variant="contained"
+        style={{
+          borderRadius: 40,
+            padding: "18px 36px",
+            fontSize: "18px",
+            textShadow: "1px 1px 5px black",
+            color: "white",
+            backgroundColor: "#FD706B"
+        }}
+        variant="contained"
           size="large"
           onClick={this.offLampHandler}
         >
