@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/lampcontrol/static/css/main.3460ab99.chunk.css"
   },
   {
-    "revision": "e199ee80109282da14c2e1614b396502",
+    "revision": "cb8095e54055a701887c90c752e1a565",
     "url": "/lampcontrol/index.html"
   }
 ];
