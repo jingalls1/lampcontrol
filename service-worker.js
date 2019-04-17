@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lampcontrol/precache-manifest.0adc412e9b8a99735d73dc75d84f7a79.js"
+  "/lampcontrol/precache-manifest.d60c7e412ef71aac2913c7388a9c7f88.js"
 );
 
 workbox.clientsClaim();
