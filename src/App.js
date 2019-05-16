@@ -31,6 +31,11 @@ class App extends React.Component {
     //alert("not gonna mf go on stopit")
   };
 
+  testHandler = () => {
+    //
+    window.open("https://jingalls1.github.io/nbareact2", "_self")
+  }
+
   render() {
     console.log('just checking if it updated 4/10')
     return (
@@ -62,7 +67,7 @@ class App extends React.Component {
         <Button
         style={{
           borderRadius: 40,
-            padding: "18px 36px",
+            padding: "25px 36px",
             fontSize: "18px",
             textShadow: "1px 1px 5px black",
             color: "white",
@@ -73,7 +78,9 @@ class App extends React.Component {
           onClick={this.offLampHandler}
         >
           {" "}
-          Turn off lamp{" "}
+          <span className="power">
+          	{"\u23FB"}
+          </span>
         </Button>
         </div>
       </div>
